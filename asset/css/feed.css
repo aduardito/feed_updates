@@ -1,0 +1,154 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-ago-2014, 18:28:09
+    Author     : eduardo
+*/
+
+html, body, div, ul, p, h1, h2, h3, h4, h5
+{
+    zoom:1;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-size: 11px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header
+{
+    height: 25px;
+    text-align: right;
+    position:relative;
+}
+
+header a
+{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    
+}
+
+.feed_header_left
+{
+    float: left;
+    width: 125px;
+}
+
+.feed_header_right .main_title a, 
+.feed_header_right .main_description
+{
+    color:white;
+    text-decoration: none;
+}
+
+.feed_header_right .main_title a
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.feed_header_right
+{
+    float: left;
+    display: inline-block;
+    height: 40px;
+    margin: 10px 0;
+}
+
+/**
+*   feed page
+*/
+#wrapper
+{
+    background-color: #990000;
+}
+
+#error_message{
+    background-color: white;
+    color: #990000;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px;
+    padding: 40px;
+    text-align: center;
+}
+
+#updated_message
+{
+    text-align: center;
+    margin: 5px 50px;
+    font-weight: bold;
+}
+
+#items_wrapper
+{
+    background-color: white;
+    clear: both;
+    margin: 20px;
+    padding: 20px;
+}
+
+.item_container
+{
+    float: left;
+    width: 200px;
+    height: 220px;
+    padding: 5px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-right: 3px solid #990000;
+}
+
+.item_container:hover
+{
+    background-color: #FF9B9B;
+}
+
+.item_container:hover a
+{
+    text-decoration: underline;
+}
+
+
+.item_title
+{
+    height: 30px;
+    padding: 5px 10px;
+}
+
+.item_title a
+{
+    color:#990000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.item_img
+{
+    margin: 10px 0; 
+}
+
+.item_content
+{
+    
+}
+
+.item_content .item_date
+{
+    color:gray;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
